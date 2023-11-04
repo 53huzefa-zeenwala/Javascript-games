@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+#collision_canvas {
+    opacity: 0;
+}
